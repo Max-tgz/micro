@@ -1,0 +1,14 @@
+server:
+  port: 8181
+
+info:
+  name: "张海堤"
+  sno: "202012900841"
+
+1:
+  name: "zzz"
+  sno: "aaa"
+
+in:
+  name: "张海"
+  sno: "2020129001"
