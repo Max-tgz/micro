@@ -10,6 +10,13 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>lesson01-firstservice</module>
+        <module>lesson02-eureka-server</module>
+        <module>lesson02-eureka-provider</module>
+        <module>lesson02-eureka-consumer</module>
+        <module>lesson02-eureka-server-another</module>
+        <module>lesson02-eureka-provider-another</module>
+        <module>lesson03-ribbon-client</module>
+        <module>lesson04-feign-client</module>
     </modules>
 
     <!--    1.继承spring boot父项目-->
@@ -37,7 +44,7 @@
         </dependencies>
     </dependencyManagement>
 
-    <!--    4.构建项目所需要的信息-->
+    <!--    4.构建项目所需要的信息111-->
     <build>
         <plugins>
             <plugin>

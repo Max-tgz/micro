@@ -3,5 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lesson01-firstservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson01-firstservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson02-eureka-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson02-eureka-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson02-eureka-provider-another" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson02-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson02-eureka-server-another" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson03-ribbon-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson04-feign-client" charset="UTF-8" />
   </component>
 </project>
