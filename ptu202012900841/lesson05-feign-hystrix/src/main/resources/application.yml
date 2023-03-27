@@ -1,0 +1,17 @@
+server:
+  port: 8768
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka
+feign:
+  circuitbreaker:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+spring:
+  application:
+    name: feign-hystrix-client

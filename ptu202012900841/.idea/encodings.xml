@@ -11,5 +11,10 @@
     <file url="file://$PROJECT_DIR$/lesson02-eureka-server-another" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lesson03-ribbon-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lesson04-feign-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson05-feign-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson05-feign-hystrix-another" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson05-hystrix-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson05-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson05-turbine-server" charset="UTF-8" />
   </component>
 </project>

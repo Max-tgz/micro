@@ -17,6 +17,11 @@
         <module>lesson02-eureka-provider-another</module>
         <module>lesson03-ribbon-client</module>
         <module>lesson04-feign-client</module>
+        <module>lesson05-hystrix-client</module>
+        <module>lesson05-feign-hystrix</module>
+        <module>lesson05-hystrix-dashboard</module>
+        <module>lesson05-feign-hystrix-another</module>
+        <module>lesson05-turbine-server</module>
     </modules>
 
     <!--    1.继承spring boot父项目-->

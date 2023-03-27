@@ -1,0 +1,12 @@
+server:
+  port: 8769
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka
+feign:
+  circuitbreaker:
+    enabled: true
+spring:
+  application:
+    name: feign-hystrix-client2
