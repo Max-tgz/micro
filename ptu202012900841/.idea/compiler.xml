@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lesson04-feign-client" />
-        <module name="lesson05-hystrix-dashboard" />
-        <module name="lesson01-firstservice" />
-        <module name="lesson05-feign-hystrix-another" />
+        <module name="lesson03-ribbon-client" />
+        <module name="lesson05-hystrix-client" />
         <module name="lesson02-eureka-server" />
         <module name="lesson02-eureka-provider" />
-        <module name="lesson05-feign-hystrix" />
-        <module name="lesson02-eureka-server-another" />
-        <module name="lesson05-hystrix-client" />
-        <module name="lesson02-eureka-provider-another" />
         <module name="lesson05-turbine-server" />
-        <module name="lesson03-ribbon-client" />
+        <module name="lesson05-feign-hystrix" />
+        <module name="lesson05-feign-hystrix-another" />
+        <module name="lesson04-feign-client" />
+        <module name="lesson01-firstservice" />
+        <module name="lesson06-gateway" />
+        <module name="lesson02-eureka-provider-another" />
+        <module name="lesson05-hystrix-dashboard" />
+        <module name="lesson02-eureka-server-another" />
         <module name="lesson02-eureka-consumer" />
       </profile>
     </annotationProcessing>
@@ -37,6 +38,7 @@
       <module name="lesson05-hystrix-client" options="-parameters" />
       <module name="lesson05-hystrix-dashboard" options="-parameters" />
       <module name="lesson05-turbine-server" options="-parameters" />
+      <module name="lesson06-gateway" options="-parameters" />
       <module name="ptu202012900841" options="-parameters" />
     </option>
   </component>

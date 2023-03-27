@@ -1,0 +1,27 @@
+server:
+  port: 8835
+spring:
+  application:
+    name: gateway
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: eureka-provider
+          uri: lb://eureka-provider
+          predicates:
+            - Path=/port/**
+#            - Before=2023-03-27T15:25:55+08:00[Asia/Shanghai]
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: breaker
+                fallbackUri: forward:/fallback
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7000/eureka

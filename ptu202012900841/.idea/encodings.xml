@@ -16,5 +16,6 @@
     <file url="file://$PROJECT_DIR$/lesson05-hystrix-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lesson05-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lesson05-turbine-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson06-gateway" charset="UTF-8" />
   </component>
 </project>
